@@ -1,0 +1,9 @@
+<?php
+    $address = 'vergil.u.washington.edu';
+    $user = 'root';
+    $password = 'overhllway';
+    $port = '1284';
+    $db = 'vcs';
+    
+    $db_vcs = new MySQLi($host,$username,$password,$dbname,$port) or die("Cannot Connect");
+?>

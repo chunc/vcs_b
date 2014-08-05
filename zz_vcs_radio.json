@@ -1,0 +1,76 @@
+{
+    "run": [
+        {
+            "task": "radio",
+            "r_station": "Hip-Hop Hits",
+            "r_freq": "101.3",
+            "audio_prompt": "r_play_hiphop.mp3",
+            "audio_confirm": "r_confirm_hiphop.mp3",
+            "audio_err": "r_err_billboard.mp3",
+            "r_err_station": "Billboard Top 100",
+            "r_err_freq": "92.4",
+            "delay": "short",
+            "err_rate": "low"
+        },
+        {
+            "task": "radio",
+            "r_station": "Classic Rock",
+            "r_freq": "99.1",
+            "audio_prompt": "r_play_rock.mp3",
+            "audio_confirm": "r_confirm_rock.mp3",
+            "audio_err": "r_err_alt.mp3",
+            "r_err_station": "New Alternative",
+            "r_err_freq": "87.8",
+            "delay": "short",
+            "err_rate": "low"
+        },
+        {
+            "task": "radio",
+            "r_station": "ESPN Xtreme",
+            "r_freq": "103.5",
+            "audio_prompt": "r_play_espn.mp3",
+            "audio_confirm": "r_confirm_espn.mp3",
+            "audio_err": "r_err_edm.mp3",
+            "r_err_station": "Electronic Dance",
+            "r_err_freq": "88.7",
+            "delay": "short",
+            "err_rate": "low"
+        },
+        {
+            "task": "radio",
+            "r_station": "Radio Disney",
+            "r_freq": "100.3",
+            "audio_prompt": "r_play_disney.mp3",
+            "audio_confirm": "r_confirm_disney.mp3",
+            "audio_err": "r_err_espn.mp3",
+            "r_err_station": "ESPN Xtreme",
+            "r_err_freq": "103.5",
+            "delay": "short",
+            "err_rate": "low"
+        },
+        {
+            "task": "radio",
+            "r_station": "NPR News",
+            "r_freq": "92.3",
+            "audio_prompt": "r_play_npr.mp3",
+            "audio_confirm": "r_confirm_npr.mp3",
+            "audio_err": "r_err_rock.mp3",
+            "r_err_station": "Classic Rock",
+            "r_err_freq": "99.1",
+            "delay": "short",
+            "err_rate": "low"
+        },
+        {
+            "task": "radio",
+            "r_station": "Light Jazz",
+            "r_freq": "98.4",
+            "audio_prompt": "r_play_jazz.mp3",
+            "audio_confirm": "r_confirm_jazz.mp3",
+            "audio_err": "r_err_hiphop.mp3",
+            "r_err_station": "Hip-Hop Hits",
+            "r_err_freq": "101.3",
+            "delay": "short",
+            "err_rate": "low"
+        }
+    ]
+}

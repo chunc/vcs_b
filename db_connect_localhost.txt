@@ -1,0 +1,10 @@
+<?php
+    $address = 'localhost';
+    $user = 'root';
+    $db = 'vcs';
+    
+    $mysqli_connection = new MySQLi($address, $user) or die("Cannot Connect");
+	mysqli_select_db($mysqli_connection,$db);  
+    
+    // include 'db_connect_localhost.txt';
+?>
